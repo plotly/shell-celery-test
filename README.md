@@ -1,7 +1,4 @@
-## Dash On-Premise Sample App
+## Multiple processes on dash
 
-This repository contains a simple Dash app that can be deployed as-is on your [Plotly On-Premise](https://plot.ly/products/on-premise) server.
+This repository contains a simple Dash app that run multi-processes. A random number is generated and then saved to local pickle file. Another process of live updating is reading from the local pickle file and output result to dash html layout. 
 
-#### Deployment Instructions
-
-To learn more about what each of these files does and how to start from scratch, see the [Plotly On-Premise Dash App Deployment Docs](https://plot.ly/dash/deployment/on-premise).
